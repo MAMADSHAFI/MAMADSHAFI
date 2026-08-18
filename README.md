@@ -1,93 +1,99 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00ff41&height=200&section=header&text=MAMADSHAFI&fontSize=60&fontColor=00ff41&fontAlignY=38&desc=Developer%20%7C%20Security%20%7C%20Embedded&descAlignY=60&descSize=18&descColor=39d353" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:161b22&height=200&section=header&text=MAMAD%20SHAFI&fontSize=70&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Security%20%7C%20Python%20%7C%20Automation&descAlignY=58&descSize=18" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=00FF41&center=true&vCenter=true&multiline=true&width=600&height=120&lines=~/developer+%24+cat+profile.txt;01+%3E+AI+Developer;02+%3E+Cybersecurity+Enthusiast;03+%3E+Desktop+%26+Web+Developer;04+%3E+Embedded+Systems+Explorer)](https://git.io/typing-svg)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=root%40mamadshafi%3A~%24+whoami;Penetration+Tester+in+Training;Python+%26+Automation+Enthusiast;Always+Learning%2C+Always+Building" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=MAMADSHAFI&label=VISITORS&color=0d1117&style=flat-square" alt="profile views"/>
 
 </div>
 
 ---
 
-## `> about_me.py`
+## `> cat about_me.py`
 ```python
 class AboutMe:
 def __init__(self):
-self.name     = "Mohammad Shafi"
-self.alias    = "MAMADSHAFI"
-self.location = "In Your Heart 💚"
-self.focus    = ["AI Development", "Cybersecurity", "Embedded Systems"]
-self.goal     = "Build things that matter and leave traces in the code"
+self.name     = "Mamad Shafi"
+self.role     = "Security Researcher & Python Developer"
+self.location = "In Your Heart"
+self.focus    = ["Penetration Testing", "Automation", "AI"]
+self.learning = ["OWASP Top 10", "NIST Framework", "Advanced Python"]
 
 def say_hi(self):
-print("Thanks for visiting — hope you find something useful here.")
-print(f"Currently focused on: {', '.join(self.focus)}")
-print("Let's build the future together. 🚀")
+print("Thanks for dropping by. Let's build something secure.")
+
 
 me = AboutMe()
 me.say_hi()
 
 ---
 
-## `> contact.sh`
+## `> ls ./tech_stack`
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-@Mestershafi-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Mestershafi)
-[![Instagram](https://img.shields.io/badge/Instagram-mohammad0shafi-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mohammad0shafi)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamadpainterghasemi@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-MAMADSHAFI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MAMADSHAFI)
+### Languages & Core
+<img src="https://skillicons.dev/icons?i=python,bash,js,html,css,cpp&theme=dark" />
+
+### Tools & Platforms
+<img src="https://skillicons.dev/icons?i=linux,kali,git,github,docker,vscode,mysql,postman&theme=dark" />
 
 </div>
 
 ---
 
-## `> tech_stack.json`
+## `> ./stats --show-all`
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,linux,bash,git,github,vscode,arduino,raspberrypi,html,css,js,mysql&theme=dark&perline=7)](https://skillicons.dev)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MAMADSHAFI&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="streak"/>
 
 </div>
 
 ---
 
-## `> github_stats.sh`
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=39d353&text_color=c9d1d9&include_all_commits=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&langs_count=8"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=MAMADSHAFI&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FF41&fire=39D353&currStreakLabel=00FF41&sideLabels=C9D1D9&dates=6E7681)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## `> contribution_snake.gif`
+## `> ./contribution_snake`
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-contribution-grid-snake.svg"/>
-  <img alt="snake animation" src="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake.svg" />
 </picture>
 
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MAMADSHAFI&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="100%"/>
+
 </div>
 
 ---
 
-## `> activity_graph.sh`
+## `> ssh contact@mamadshafi`
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MAMADSHAFI&theme=github-compact&bg_color=0d1117&color=00ff41&line=39d353&point=00ff41&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+| Channel | Address |
+|:---|:---|
+| **Telegram** | [@Mestershafi](https://t.me/Mestershafi) |
+| **Instagram** | [mohammad0shafi](https://instagram.com/mohammad0shafi) |
+| **Email** | [mohamadpainterghasemi@gmail.com](mailto:mohamadpainterghasemi@gmail.com) |
+| **Location** | `In Your Heart` |
+
+<br/>
+
+<a href="https://t.me/Mestershafi"><img src="https://img.shields.io/badge/Telegram-0d1117?style=for-the-badge&logo=telegram&logoColor=58a6ff"/></a>
+<a href="https://instagram.com/mohammad0shafi"><img src="https://img.shields.io/badge/Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=58a6ff"/></a>
+<a href="mailto:mohamadpainterghasemi@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff"/></a>
 
 </div>
 
@@ -95,19 +101,19 @@ me.say_hi()
 
 <div align="center">
 
-console
-$ git commit -m "First, solve the problem. Then, write the code."
 
-![Profile Views](https://komarev.com/ghpvc/?username=MAMADSHAFI&color=00ff41&style=flat-square&label=PROFILE+VIEWS)
+[ EOF ] ── exit code 0 ── connection closed
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:161b22,100:0d1117&height=120&section=footer" width="100%"/>
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:0d1117&height=120&section=footer" width="100%"/>
-
+`
 
 ---
 
-## `.github/workflows/snake.yml` — نسخه کامل‌شده
+## `.github/workflows/snake.yml`
+
+این فایل انیمیشن مار رو می‌سازه. مسیر و اسم فایل باید **دقیقاً** همین باشه:
 
 ```yaml
 name: Generate Snake Animation
@@ -117,24 +123,27 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
-    branches: [main, master]
+    branches:
+      - main
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     permissions:
       contents: write
 
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: MAMADSHAFI
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v3
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
