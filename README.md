@@ -1,14 +1,37 @@
 <div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Mohammad+Shafi;AI+Developer+%7C+Cybersecurity;Welcome+to+my+terminal+%F0%9F%91%BE" alt="typing banner" />
+
+</div>
+
+---
+
+## `> about_me.py`
 ```python
-# > MAMADSHAFI.exe --initialize
-# [████████████████████] 100%
-# STATUS: ONLINE
+class AboutMe:
+def __init__(self):
+self.name = "Mohammad Shafi"
+self.alias = "MAMADSHAFI"
+self.location = "In Your Heart 💚"
+self.focus = ["AI Development", "Cybersecurity", "Embedded Systems"]
+self.goal = "Build things that matter and leave traces in the code"
 
-<h1>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Mamad+Shafi+%F0%9F%91%BE;Full-Stack+Developer;Security+Researcher;Open+Source+Enthusiast" alt="Typing SVG" />
-</h1>
+def say_hi(self):
+print("Thanks for visiting — hope you find something useful here.")
+print(f"Currently focused on: {', '.join(self.focus)}")
+print("Let's build the future together. 🚀")
 
-[![Telegram](https://img.shields.io/badge/Telegram-@Mestershafi-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Mestershafi)
+
+me = AboutMe()
+me.say_hi()
+
+---
+
+## `> contact.sh`
+
+<div align="center">
+
+[![Telegram](https://img.shields.io/badge/Telegram-%40Mestershafi-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Mestershafi)
 [![Instagram](https://img.shields.io/badge/Instagram-mohammad0shafi-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mohammad0shafi)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamadpainterghasemi@gmail.com)
 
@@ -16,65 +39,65 @@
 
 ---
 
-### `whoami`
-
-bash
-$ cat about.txt
-Name    : Mamad Shafi
-Role    : Developer & Security Researcher
-Focus   : Web Dev · Pen-Testing · Open Source
-Status  : Building cool stuff 🚀
-
----
-
-### `skills --list`
+## `> tech_stack.json`
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
 ---
 
-### `git log --stats`
+## `> github_stats.sh`
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF9C&icon_color=00FF9C" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF9C" alt="top langs" />
 
-![Streak](https://streak-stats.demolab.com?user=MAMADSHAFI&theme=dark&hide_border=true&background=0d1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41)
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MAMADSHAFI&theme=dark&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" alt="streak" />
 
 </div>
 
 ---
 
-### `./snake --watch`
+## `> contribution_snake.gif`
 
 <div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake.svg" />
-  <img alt="snake" src="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake.svg" />
 </picture>
+
 </div>
 
 ---
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=MAMADSHAFI&color=00ff41&style=flat-square&label=VISITORS" />
+
+![Profile Views](https://komarev.com/ghpvc/?username=MAMADSHAFI&style=for-the-badge&color=00FF9C&label=PROFILE+VIEWS)
+
+<sub><code>$ exit 0</code> — Thanks for stopping by 👾</sub>
+
 </div>
+`
 
+چند نکته‌ی مهم:
 
----
+- تگ `<picture>` در بخش اسنیک هوشمنده: برای تم تیره خودکار `github-snake-dark.svg` و برای تم روشن نسخه‌ی معمولی رو لود می‌کنه. تا وقتی برنچ `output` ساخته نشده این قسمت 404 می‌ده و طبیعیه؛ بعد از سبز شدن Actions خودش ظاهر می‌شه.
+- بنر تایپ‌شونده‌ی بالا (`readme-typing-svg`) نیازی به هیچ workflow نداره و بلافاصله کار می‌کنه، پس صفحه از همون اول جون داره.
+- اگه رنگ سبز `#00FF9C` باب میلت نبود، فقط همین کد رنگ رو در همه‌ی لینک‌ها با هم عوض کن تا کل تم هماهنگ بمونه.
 
-بعد از کامیت، اگه snake هنوز نشون نداد، لینک زیر رو مستقیم توی مرورگر باز کن تا ببینی فایل SVG واقعاً وجود داره:
-
-https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-snake-dark.svg
-
-
-اگه 404 داد یعنی برنچ `output` ساخته نشده — اسکرین‌شات برنچ‌های ریپو رو بفرست.
+اگه خواستی، می‌تونم یه نسخه با هدر ASCII-art بالای صفحه (اسم خودت به شکل بنر ترمینالی) هم برات اضافه کنم.
