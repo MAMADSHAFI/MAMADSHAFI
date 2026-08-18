@@ -1,149 +1,196 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
+<!-- ═══════════════ ANIMATED HEADER ═══════════════ -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=45&pause=1000&color=39D353&center=true&vCenter=true&width=600&height=70&lines=MAMADSHAFI" alt="MAMADSHAFI" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:39D353,100:0D1117&height=200&section=header&text=MAMADSHAFI&fontSize=70&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=Developer%20%7C%20AI%20Enthusiast%20%7C%20Open%20Source&descSize=18&descAlignY=60&descColor=39D353" />
 
-<p><code>~/developer/portfolio</code></p>
-
-<img src="./assets/banner.png" width="100%" alt="Developer workspace banner" />
-
-<h3><i>// Turning ideas into digital reality</i></h3>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=39D353&center=true&vCenter=true&random=false&width=600&height=50&lines=AI+Developer+%F0%9F%A4%96;Cybersecurity+Enthusiast+%F0%9F%94%90;Desktop+%26+Web+Developer+%F0%9F%92%BB;Embedded+Systems+Explorer+%F0%9F%94%A7;Open+Source+Contributor+%F0%9F%8C%90;Life+Long+Learner+%F0%9F%93%9A" alt="Typing SVG" />
 
 </div>
-```console
-01 > AI Developer
-02 > Cybersecurity Enthusiast
-03 > Desktop & Web Developer
-04 > Embedded Systems Explorer
-05 > Open Source Contributor
-06 > Life Long Learner
 
-$ git commit -m "Building the future"
+<!-- ═══════════════ CONSOLE BLOCK ═══════════════ -->
+```console
+~/developer $ cat profile.txt
+
+  01 > AI Developer
+  02 > Cybersecurity Enthusiast
+  03 > Desktop & Web Developer
+  04 > Embedded Systems Explorer
+  05 > Open Source Contributor
+  06 > Life Long Learner
+
+  $ git commit -m "Building the future, one commit at a time"
 
 <!-- ═══════════════ SOCIALS ═══════════════ -->
 <div align="center">
 
-| GitHub | LinkedIn | X (Twitter) | Email | Location |
-|:------:|:--------:|:-----------:|:-----:|:--------:|
-| [![GitHub](https://img.shields.io/badge/@MAMADSHAFI-181717?style=for-the-badge&logo=github&logoColor=39D353)](https://github.com/MAMADSHAFI) | [![LinkedIn](https://img.shields.io/badge//in/mamadshafi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mamadshafi) | [![X](https://img.shields.io/badge/@MAMADSHAFI__-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/MAMADSHAFI_) | [![Email](https://img.shields.io/badge/mamadshafi.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mamadshafi.dev@gmail.com) | ![Location](https://img.shields.io/badge/Earth%20🌍-121212?style=for-the-badge) |
+[![Telegram](https://img.shields.io/badge/@Mestershafi-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Mestershafi)
+[![Instagram](https://img.shields.io/badge/mohammad0shafi-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mohammad0shafi)
+[![Email](https://img.shields.io/badge/mohamadpainterghasemi%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamadpainterghasemi@gmail.com)
+[![Location](https://img.shields.io/badge/In_Your_Heart_🌍-0D1117?style=for-the-badge&labelColor=39D353&color=0D1117)](https://github.com/MAMADSHAFI)
 
 </div>
+
+---
 
 <!-- ═══════════════ ABOUT ME ═══════════════ -->
 ## `> about_me.py`
 
 python
-class AboutMe():
+class AboutMe:
 def __init__(self):
-self.name  = "MAMADSHAFI"
-self.role  = "Developer"
-self.focus = ["AI", "Cybersecurity",
-"Open Source", "Tech"]
-self.goal  = "Build things that matter"
+self.name     = "MAMADSHAFI"
+self.role     = ["AI Developer", "Cybersecurity Enthusiast"]
+self.focus    = ["Artificial Intelligence", "Open Source",
+"Embedded Systems", "Cybersecurity"]
+self.hobbies  = ["Hacking (ethically 😄)", "Building cool stuff",
+"Contributing to OSS"]
+self.goal     = "Build things that matter and leave traces in the code"
 
 def say_hi(self):
-print("Thanks for visiting my profile!")
-print("Let's build something amazing together.")
+print("Thanks for visiting — hope you find something useful here.")
+print(f"Currently focused on: {', '.join(self.focus)}")
+print("Let's build the future together. 🚀")
 
 
 me = AboutMe()
 me.say_hi()
 
-<!-- ═══════════════ STATS ═══════════════ -->
-## `> GitHub Stats`
+---
+
+<!-- ═══════════════ GITHUB STATS ═══════════════ -->
+## `> github_stats.sh`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" alt="GitHub stats" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=MAMADSHAFI&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideNums=C9D1D9&currStreakNum=C9D1D9&sideLabels=C9D1D9&dates=8B949E" alt="Streak stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9&ring_color=39D353" />
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=MAMADSHAFI&hide_border=true&background=0D1117&ring=39D353&fire=39D353&currStreakLabel=39D353&sideNums=C9D1D9&currStreakNum=FFFFFF&sideLabels=8B949E&dates=8B949E" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=compact&langs_count=6&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" alt="Most used languages" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=donut&langs_count=6&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" alt="Top languages" />
+<br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=MAMADSHAFI&bg_color=0D1117&color=C9D1D9&line=39D353&point=FFFFFF&area=true&hide_border=true" alt="Contribution graph" />
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=donut&langs_count=6&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" />
+<img width="58%" src="https://github-readme-activity-graph.vercel.app/graph?username=MAMADSHAFI&bg_color=0D1117&color=39D353&line=39D353&point=FFFFFF&area=true&area_color=39D35330&hide_border=true" />
 
 </div>
+
+---
+
+<!-- ═══════════════ SNAKE ANIMATION ═══════════════ -->
+## `> contribution_snake.gif`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake animation"
+src="https://raw.githubusercontent.com/MAMADSHAFI/MAMADSHAFI/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
 
 <!-- ═══════════════ TECH STACK ═══════════════ -->
-## `> Tech_Stack.exe`
+## `> tech_stack.json`
 
 <div align="center">
 
-[![Tech stack](https://skillicons.dev/icons?i=python,ts,js,react,nextjs,nodejs,electron,tailwind,postgres,docker,git,linux&theme=dark&perline=12)](https://skillicons.dev)
+<img src="https://skillicons.dev/icons?i=python,cpp,js,ts,react,nextjs,nodejs,electron&theme=dark&perline=8" /><br/>
+<img src="https://skillicons.dev/icons?i=docker,linux,git,bash,postgres,redis,arduino,raspberrypi&theme=dark&perline=8" /><br/>
+<img src="https://skillicons.dev/icons?i=vscode,neovim,figma,github,cloudflare,nginx&theme=dark&perline=8" />
 
 </div>
 
-<!-- ═══════════════ PROJECTS ═══════════════ -->
-## `> Featured_Projects.json`
+---
+
+<!-- ═══════════════ FEATURED PROJECTS ═══════════════ -->
+## `> featured_projects.json`
 
 <div align="center">
 
 <a href="https://github.com/MAMADSHAFI/ai-assistant">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=ai-assistant&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" alt="AI Assistant" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=ai-assistant&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" />
 </a>
 <a href="https://github.com/MAMADSHAFI/cybertools">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=cybertools&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" alt="CyberTools" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=cybertools&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" />
 </a>
 <a href="https://github.com/MAMADSHAFI/deskflow">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=deskflow&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" alt="DeskFlow" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=deskflow&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" />
 </a>
 <a href="https://github.com/MAMADSHAFI/embedos">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=embedos&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" alt="EmbedOS" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MAMADSHAFI&repo=embedos&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=39D353&text_color=C9D1D9" />
 </a>
 
-<br /><br />
+<br/><br/>
 
-[![View more](https://img.shields.io/badge/%3E%20View%20more%20repositories%20on%20GitHub%20%E2%86%92-0D1117?style=for-the-badge&labelColor=0D1117&color=39D353)](https://github.com/MAMADSHAFI?tab=repositories)
+[![All repos](https://img.shields.io/badge/→_View_All_Repositories-0D1117?style=for-the-badge&labelColor=39D353&color=0D1117)](https://github.com/MAMADSHAFI?tab=repositories)
 
 </div>
 
-<!-- ═══════════════ ACTIVITY ═══════════════ -->
-## `> Current_Activity.log` ![status](https://img.shields.io/badge/ONLINE-39D353?style=flat-square&labelColor=0D1117)
+---
+
+<!-- ═══════════════ RECENT ACTIVITY ═══════════════ -->
+## `> activity.log` &nbsp; ![online](https://img.shields.io/badge/●_ONLINE-39D353?style=flat-square&labelColor=0D1117)
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR in [MAMADSHAFI/ai-assistant](https://github.com/MAMADSHAFI/ai-assistant)
+1. 🎉 Merged PR in MAMADSHAFI/ai-assistant
 <!--END_SECTION:activity-->
 
-<!-- ═══════════════ QUOTE ═══════════════ -->
-## `> Quote.txt`
+---
 
-> **"Code is like humor. When you have to explain it, it's bad."**
-> — *Cory House*
+<!-- ═══════════════ QUOTE ═══════════════ -->
+<div align="center">
+
+> **"First, solve the problem. Then, write the code."**
+> — *John Johnson*
+
+</div>
+
+---
 
 <!-- ═══════════════ FOOTER ═══════════════ -->
 <div align="center">
 
-| ❤️ Thanks for stopping by! | Let's connect and build the future together. | ⚡ Keep Coding. Stay Curious. |
-|:---:|:---:|:---:|
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:39D353,100:0D1117&height=120&section=footer&animation=twinkling" />
 
-![Profile views](https://komarev.com/ghpvc/?username=MAMADSHAFI&style=flat-square&color=39D353&label=PROFILE+VIEWS)
+![Profile views](https://komarev.com/ghpvc/?username=MAMADSHAFI&style=for-the-badge&color=39D353&label=PROFILE+VIEWS&abbreviated=true)
 
 </div>
-`
 
-## ۳. آپدیت خودکار بخش Activity
 
-فایل `.github/workflows/activity.yml`:
+---
+
+## `.github/workflows/snake.yml`
 
 ```yaml
-name: Update Activity Log
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0 * * *"   # every day at midnight UTC
   workflow_dispatch:
-
-permissions:
-  contents: write
+  push:
+    branches: [main, master]
 
 jobs:
-  update-activity:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@v0.2.5
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore: update activity log"
-          MAX_LINES: 5
