@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Mohammad+Shafi;AI+Developer+%7C+Cybersecurity;Welcome+to+my+terminal+%F0%9F%91%BE" alt="typing banner" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00FF9C&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Mohammad+Shafi;AI+Developer+%7C+Cybersecurity;Welcome+to+my+terminal+%F0%9F%91%BE" alt="banner" />
 
 </div>
 
@@ -12,14 +12,13 @@ class AboutMe:
 def __init__(self):
 self.name = "Mohammad Shafi"
 self.alias = "MAMADSHAFI"
-self.location = "In Your Heart 💚"
 self.focus = ["AI Development", "Cybersecurity", "Embedded Systems"]
 self.goal = "Build things that matter and leave traces in the code"
 
 def say_hi(self):
 print("Thanks for visiting — hope you find something useful here.")
 print(f"Currently focused on: {', '.join(self.focus)}")
-print("Let's build the future together. 🚀")
+print("Let's build the future together.")
 
 
 me = AboutMe()
@@ -48,7 +47,6 @@ me.say_hi()
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
@@ -60,12 +58,6 @@ me.say_hi()
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=MAMADSHAFI&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF9C&icon_color=00FF9C" alt="stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MAMADSHAFI&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00FF9C" alt="top langs" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MAMADSHAFI&theme=dark&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" alt="streak" />
 
 </div>
 
@@ -89,15 +81,43 @@ me.say_hi()
 
 ![Profile Views](https://komarev.com/ghpvc/?username=MAMADSHAFI&style=for-the-badge&color=00FF9C&label=PROFILE+VIEWS)
 
-<sub><code>$ exit 0</code> — Thanks for stopping by 👾</sub>
-
 </div>
 `
 
-چند نکته‌ی مهم:
+## ۲) فایل `.github/workflows/snake.yml` — این کد YAML رو اینجا بذار، نه توی README
 
-- تگ `<picture>` در بخش اسنیک هوشمنده: برای تم تیره خودکار `github-snake-dark.svg` و برای تم روشن نسخه‌ی معمولی رو لود می‌کنه. تا وقتی برنچ `output` ساخته نشده این قسمت 404 می‌ده و طبیعیه؛ بعد از سبز شدن Actions خودش ظاهر می‌شه.
-- بنر تایپ‌شونده‌ی بالا (`readme-typing-svg`) نیازی به هیچ workflow نداره و بلافاصله کار می‌کنه، پس صفحه از همون اول جون داره.
-- اگه رنگ سبز `#00FF9C` باب میلت نبود، فقط همین کد رنگ رو در همه‌ی لینک‌ها با هم عوض کن تا کل تم هماهنگ بمونه.
+مشکل بزرگ‌تر اینه که YAML قبلی هم غلط بود؛ `on:` نداشت و `outputs` بد نوشته شده بود. این نسخه‌ی درست رو جایگزین کن:
 
-اگه خواستی، می‌تونم یه نسخه با هدر ASCII-art بالای صفحه (اسم خودت به شکل بنر ترمینالی) هم برات اضافه کنم.
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: MAMADSHAFI
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
