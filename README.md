@@ -1,23 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=120&section=header&text=%3E%20whoami&fontColor=39d353&fontSize=28&fontAlignY=45&desc=~/developer/portfolio&descAlignY=70&descColor=8b949e&descSize=14" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=45&duration=3000&pause=800&color=39D353&center=true&vCenter=true&width=600&height=70&lines=MAMADSHAFI" alt="MAMADSHAFI"/>
-
-**// Turning ideas into digital reality**
+<img src="./banner.svg" width="100%" alt="MAMADSHAFI banner"/>
 
 </div>
-
-```
-01  >  AI Developer
-02  >  Cybersecurity Enthusiast
-03  >  Desktop & Web Developer
-04  >  Embedded Systems Explorer
-05  >  Open Source Contributor
-06  >  Life Long Learner
-
-$ git commit -m "Building the future"
-```
 
 <div align="center">
 
@@ -98,3 +83,4 @@ me.say_hi()
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=40&section=footer" width="100%"/>
 
 </div>
+
